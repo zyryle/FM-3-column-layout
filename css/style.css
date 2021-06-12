@@ -31,12 +31,7 @@ body {
   height: 100vh;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1 { 
   font-family: 'Big Shoulders Display', cursive;
   font-weight: 700;
   text-transform: uppercase;
@@ -112,9 +107,7 @@ button:hover {
 
 
 /* MEDIA QUERY */
-
 @media only screen and (max-width: 600px) {
-
   p {
     margin-bottom: 20px;
   }
