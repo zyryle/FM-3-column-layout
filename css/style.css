@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+  /* Primary */
+  --orange: hsl(31, 77%, 52%);
+  --cyan: hsl(184, 100%, 22%);
+  --dark-cyan: hsl(179, 100%, 13%);
+
+  /* Neutral */
+  --white: hsla(0, 0%, 100%, 0.75);
+  --lightgray:  hsl(0, 0%, 95%);
+}
+
+*,
+*::before,
+*::after {
+  border: 0;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+/* html {
+  
+
+} */
+
+body {
+  box-sizing: border-box;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  display: flex;
+  place-content: center;
+  background-color: var(--lightgray);
+  height: 100vh;
+}
+
+button { 
+  background-color: var(--lightgray);
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--lightgray);
+}
+
+p {
+  font-size: 15px;
+  margin: 25px 0 60px 0;
+  color: var(--white);
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+.box-container {
+  display: flex;
+  width: 840px;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 32px;
+  align-items: flex-start;
+}
+
+.box1 {
+  background-color: var(--orange);
+  border-radius:  10px 0 0 10px;
+}
+
+.box2 {
+  background-color: var(--cyan);
+}
+
+.box3 {
+  background-color: var(--dark-cyan);
+  border-radius:  0 10px 10px 0;
+}
+
+button {
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-family: inherit;
+  font-size: 16;
+}
+
+.box1 button {
+  color:hsl(31, 77%, 52%);
+}
+
+.box2 button {
+  color:hsl(184, 100%, 22%);
+}
+
+.box3 button {
+  color:hsl(179, 100%, 13%);
+}
+
+.circle {
+  margin-bottom: 30px;
+}
+
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 600px) {
+
+  p {
+    margin-bottom: 20px;
+  }
+
+  body {
+    height: auto;
+  }
+
+  .box-container {
+    flex-direction: column;
+    margin: 16% 0;
+    padding: 8%;
+  }
+
+  .boxes {
+    padding: 38px 44px;
+  }
+
+  .box1 {
+    border-radius:  10px 10px 0 0;
+  }
+  
+  .box3 {
+    border-radius:  0 0 10px 10px;
+  }
+  
+}
