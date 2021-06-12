@@ -36,11 +36,6 @@ body {
   height: 100vh;
 }
 
-button { 
-  background-color: var(--lightgray);
-}
-
-
 h1,
 h2,
 h3,
@@ -94,6 +89,9 @@ button {
   border-radius: 50px;
   font-family: inherit;
   font-size: 16;
+  border: solid 2px var(--lightgray);
+  background: var(--lightgray);
+  transition: all ease 0.3s;
 }
 
 .box1 button {
@@ -106,6 +104,11 @@ button {
 
 .box3 button {
   color:hsl(179, 100%, 13%);
+}
+
+button:hover {
+  background: transparent;
+  color: var(--lightgray);
 }
 
 .circle {
