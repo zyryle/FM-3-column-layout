@@ -25,13 +25,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./3-column-preview-card-component-main/design/Desktop.png)
-![](./3-column-preview-card-component-main/design/Mobile.png)
+![](./FM-3-column-layout/design/Desktop.png)
+![](./FM-3-column-layout/design/Mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/zyryle/FM-3-column-layout/tree/main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/zyryle/FM-3-column-layout/tree/main]
+- Live Site URL: [https://zyryle.github.io/FM-3-column-layout/]
 
 ## My process
 
