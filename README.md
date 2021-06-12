@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./FM-3-column-layout/design/Desktop.png)
-![](./FM-3-column-layout/design/Mobile.png)
+![](./design/Desktop.png)
+![](./design/Mobile.png)
 
 ### Links
 
