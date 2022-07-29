@@ -36,10 +36,10 @@ Users should be able to:
 ## My process
 
 - Read description 
-- Decide weather I build the layout using Flexbox or CSS Grid
+- Decide wether I build the layout using Flexbox or CSS Grid
 - Start HTML First then CSS
 - Create GIT Repo
-- Test and try to see if I can imrpove my code
+- Test and try to see if I can improve my code
 - If things goes right then the job is finish
 
 
